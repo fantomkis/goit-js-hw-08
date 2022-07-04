@@ -27,7 +27,7 @@ const formSubmit = function (evt) {
     email: fetInput.value,
     message: fetMessage.value,
   });
-  form.reset();
+  formEl.reset();
   localStorage.clear();
 };
 
