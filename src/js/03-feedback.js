@@ -8,8 +8,8 @@ const formChange = function () {
   localStorage.setItem(
     'feedback-form-state',
     JSON.stringify({
-      email: Input.value,
-      message: Message.value,
+      email: fetInput.value,
+      message: fetMessage.value,
     })
   );
 };
